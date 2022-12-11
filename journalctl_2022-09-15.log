@@ -1,0 +1,67 @@
+sept. 15 07:31:14 linuxserver systemd[1]: Starting OpenBSD Secure Shell server...
+sept. 15 07:31:14 linuxserver sshd[906]: Server listening on 0.0.0.0 port 22.
+sept. 15 07:31:14 linuxserver sshd[906]: Server listening on :: port 22.
+sept. 15 07:31:14 linuxserver systemd[1]: Started OpenBSD Secure Shell server.
+sept. 15 07:31:41 linuxserver sshd[906]: Received signal 15; terminating.
+sept. 15 07:31:41 linuxserver systemd[1]: Stopping OpenBSD Secure Shell server...
+sept. 15 07:31:41 linuxserver systemd[1]: ssh.service: Deactivated successfully.
+sept. 15 07:31:41 linuxserver systemd[1]: Stopped OpenBSD Secure Shell server.
+sept. 15 07:31:41 linuxserver systemd[1]: Starting OpenBSD Secure Shell server...
+sept. 15 07:31:42 linuxserver sshd[1302]: Server listening on 0.0.0.0 port 22.
+sept. 15 07:31:42 linuxserver sshd[1302]: Server listening on :: port 22.
+sept. 15 07:31:42 linuxserver systemd[1]: Started OpenBSD Secure Shell server.
+sept. 15 07:41:43 linuxserver sshd[1376]: Accepted password for lbf38 from 10.0.2.2 port 58102 ssh2
+sept. 15 07:41:43 linuxserver sshd[1376]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 07:52:18 linuxserver sshd[2048]: Accepted password for lbf38 from 10.0.2.2 port 58361 ssh2
+sept. 15 07:52:18 linuxserver sshd[2048]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 08:20:52 linuxserver sshd[4112]: Accepted password for lbf38 from 10.0.2.2 port 59290 ssh2
+sept. 15 08:20:52 linuxserver sshd[4112]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 09:09:47 linuxserver sshd[8550]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+sept. 15 09:09:47 linuxserver sshd[8550]: error: send_error: write: Broken pipe
+sept. 15 09:09:47 linuxserver sshd[8550]: banner exchange: Connection from 10.0.2.2 port 60454: invalid format
+sept. 15 09:09:48 linuxserver sshd[8551]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+sept. 15 09:09:48 linuxserver sshd[8551]: error: send_error: write: Broken pipe
+sept. 15 09:09:48 linuxserver sshd[8551]: banner exchange: Connection from 10.0.2.2 port 60460: invalid format
+sept. 15 09:29:10 linuxserver sshd[9016]: Accepted password for lbf38 from 10.0.2.2 port 60926 ssh2
+sept. 15 09:29:10 linuxserver sshd[9016]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 09:31:58 linuxserver sshd[9217]: Accepted password for lbf38 from 10.0.2.2 port 61009 ssh2
+sept. 15 09:31:58 linuxserver sshd[9217]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 09:37:50 linuxserver sshd[9520]: Accepted password for lbf38 from 10.0.2.2 port 61155 ssh2
+sept. 15 09:37:50 linuxserver sshd[9520]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 10:01:32 linuxserver sshd[1302]: Received signal 15; terminating.
+sept. 15 10:01:32 linuxserver systemd[1]: Stopping OpenBSD Secure Shell server...
+sept. 15 10:01:33 linuxserver systemd[1]: ssh.service: Deactivated successfully.
+sept. 15 10:01:33 linuxserver systemd[1]: ssh.service: Unit process 10711 (sshd) remains running after unit stopped.
+sept. 15 10:01:33 linuxserver systemd[1]: ssh.service: Unit process 10712 (sshd) remains running after unit stopped.
+sept. 15 10:01:33 linuxserver systemd[1]: Stopped OpenBSD Secure Shell server.
+sept. 15 10:01:33 linuxserver systemd[1]: ssh.service: Consumed 1.597s CPU time.
+-- Boot 766af35068ba4c5197ed1fb6a602e001 --
+sept. 15 14:52:55 linuxserver systemd[1]: Starting OpenBSD Secure Shell server...
+sept. 15 14:53:00 linuxserver sshd[651]: Server listening on 0.0.0.0 port 22.
+sept. 15 14:53:00 linuxserver sshd[651]: Server listening on :: port 22.
+sept. 15 14:53:00 linuxserver systemd[1]: Started OpenBSD Secure Shell server.
+sept. 15 14:57:42 linuxserver sshd[1591]: Accepted password for lbf38 from 10.0.2.2 port 52432 ssh2
+sept. 15 14:57:42 linuxserver sshd[1591]: pam_unix(sshd:session): session opened for user lbf38(uid=1000) by (uid=0)
+sept. 15 07:56:58 linuxserver systemd[1]: Starting A high performance web server and a reverse proxy server...
+sept. 15 07:56:58 linuxserver systemd[1]: Started A high performance web server and a reverse proxy server.
+sept. 15 09:06:09 linuxserver systemd[1]: Stopping A high performance web server and a reverse proxy server...
+sept. 15 09:06:10 linuxserver systemd[1]: nginx.service: Deactivated successfully.
+sept. 15 09:06:10 linuxserver systemd[1]: Stopped A high performance web server and a reverse proxy server.
+sept. 15 09:06:31 linuxserver systemd[1]: Starting A high performance web server and a reverse proxy server...
+sept. 15 09:06:31 linuxserver systemd[1]: Started A high performance web server and a reverse proxy server.
+sept. 15 09:17:37 linuxserver systemd[1]: Stopping A high performance web server and a reverse proxy server...
+sept. 15 09:17:37 linuxserver systemd[1]: nginx.service: Deactivated successfully.
+sept. 15 09:17:37 linuxserver systemd[1]: Stopped A high performance web server and a reverse proxy server.
+sept. 15 09:18:01 linuxserver systemd[1]: Starting A high performance web server and a reverse proxy server...
+sept. 15 09:18:02 linuxserver systemd[1]: Started A high performance web server and a reverse proxy server.
+sept. 15 10:01:32 linuxserver systemd[1]: Stopping A high performance web server and a reverse proxy server...
+sept. 15 10:01:33 linuxserver systemd[1]: nginx.service: Deactivated successfully.
+sept. 15 10:01:33 linuxserver systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Boot 766af35068ba4c5197ed1fb6a602e001 --
+sept. 15 14:52:55 linuxserver systemd[1]: Starting A high performance web server and a reverse proxy server...
+sept. 15 14:53:04 linuxserver systemd[1]: Started A high performance web server and a reverse proxy server.
+sept. 15 15:07:55 linuxserver systemd[1]: Stopping A high performance web server and a reverse proxy server...
+sept. 15 15:07:55 linuxserver systemd[1]: nginx.service: Deactivated successfully.
+sept. 15 15:07:55 linuxserver systemd[1]: Stopped A high performance web server and a reverse proxy server.
+sept. 15 15:14:21 linuxserver systemd[1]: Starting A high performance web server and a reverse proxy server...
+sept. 15 15:14:21 linuxserver systemd[1]: Started A high performance web server and a reverse proxy server.
